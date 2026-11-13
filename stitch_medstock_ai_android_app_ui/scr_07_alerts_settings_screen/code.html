@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "background": "#f8f9ff", "on-error-container": "#93000a", "primary": "#005c55", "surface-container-lowest": "#ffffff", "secondary": "#515f74", "inverse-primary": "#80d5cb", "on-secondary-fixed": "#0d1c2e", "outline": "#6e7977", "error-container": "#ffdad6", "inverse-surface": "#213145", "on-tertiary": "#ffffff", "on-primary": "#ffffff", "secondary-fixed-dim": "#b9c7df", "tertiary-container": "#007952", "secondary-fixed": "#d5e3fc", "surface-container-high": "#dce9ff", "surface-container-highest": "#d3e4fe", "on-surface": "#0b1c30", "secondary-container": "#d5e3fc", "surface-dim": "#cbdbf5", "surface-container-low": "#eff4ff", "on-tertiary-fixed": "#002113", "surface-variant": "#d3e4fe", "surface-bright": "#f8f9ff", "primary-fixed": "#9cf2e8", "on-primary-fixed-variant": "#00504a", "tertiary-fixed": "#6ffbbe", "error": "#ba1a1a", "tertiary-fixed-dim": "#4edea3", "on-tertiary-container": "#99ffcd", "surface-container": "#e5eeff", "on-surface-variant": "#3e4947", "tertiary": "#005e3f", "on-secondary-fixed-variant": "#3a485b", "on-error": "#ffffff", "primary-container": "#0f766e", "on-secondary-container": "#57657a", "outline-variant": "#bdc9c6", "surface-tint": "#006a63", "on-primary-fixed": "#00201d", "on-secondary": "#ffffff", "on-primary-container": "#a3faef", "primary-fixed-dim": "#80d5cb", "on-background": "#0b1c30", "surface": "#f8f9ff", "inverse-on-surface": "#eaf1ff", "on-tertiary-fixed-variant": "#005236" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-xl": "2rem", "margin": "1rem", "space-lg": "1.5rem", "space-md": "1rem", "gutter": "1rem", "space-sm": "0.5rem", "space-xs": "0.25rem" }, fontFamily: { "label-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "title-sm": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"] }, fontSize: { "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "22px", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "title-sm": ["14px", { "lineHeight": "20px", "fontWeight": "600" }], "title-lg": ["18px", { "lineHeight": "24px", "fontWeight": "600" }] } } } }</script><style>@layer base{html,body{width:100%;min-height:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen antialiased"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)] pt-safe"><div class="h-28 px-margin flex flex-col justify-between py-space-xs"><div class="flex items-center justify-between w-full h-6 pt-1 text-on-surface-variant"><span class="font-label-sm text-label-sm font-semibold tracking-tight">09:41</span><div class="flex items-center gap-space-xs"><span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-[10px] leading-tight font-medium"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span> Synced</span><span class="material-symbols-outlined text-base leading-none">wifi</span><span class="material-symbols-outlined text-base leading-none">battery_full</span></div></div><div class="flex items-center justify-between h-14"><div class="flex items-center gap-space-sm"><img alt="MEDSTOCK AI Brand Icon" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrBbiAttNMnsDE0jolId34oj9llRvlA6xSdaINY1C9Y1eXsB3IdHhzgSDPr5zUbxjTtRh5zxhslctG2htkIkb_vAR4Uxu-KjDVAFyi0PYFAxbHp4_HfZgQyTvzDJc0sP7eO9FxxMWl6MkcDg8wFTLMWFrAuDgdXXj2ULraiRfMxAyu8XfYzpOJnE8Yk503W_xitUaRR3SnwlI5_9KNOPEXz_F5C51QO3EdeOTVnFi5HKjw"/><div class="flex flex-col"><div class="flex items-center gap-1.5"><span class="font-title-sm text-title-sm font-bold text-on-surface tracking-tight">MEDSTOCK AI</span></div><span class="font-label-sm text-label-sm text-secondary truncate">Alerts &amp; Settings</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Cabinet Security" class="w-11 h-11 flex items-center justify-center rounded-full hover:bg-surface-container text-on-surface-variant transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">shield_with_heart</span></button><div class="w-11 h-11 flex items-center justify-center pl-1"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-container/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeKskR9qhN0ZQPBJcxfWX-N1oKhU3Tc79E4Apqc8hWbUoOktOucHnlY7U3-q9SstA6HipBtuODzVYJOv13CPpHEK1aNNebWxOOffwEbquh9PPDoHWAo6KLKJdGDpl0yaC5GnAYsn4BbnWXrIKmyQsjQF2_KysrgW9tRojlyKBfbipcBMk9eJ5kJ6rAV98mwFtILNunvJ2VoICkSydY_HR-gJGUwHC_aHUFSvd1RMTO"/></div></div></div></div></header><main class="flex-1 flex flex-col relative w-full px-margin pt-28 pb-32 bg-surface"><div class="flex flex-col w-full pb-8 space-y-6">
+<!-- Caregiver Header Banner -->
+<div class="w-full bg-surface-container-low rounded-xl p-4 shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="relative">
+<img class="w-12 h-12 rounded-full object-cover shadow-sm" data-alt="Warm natural portrait of an Indian female caregiver smiling calmly, soft daylight, wearing a cozy teal cardigan with subtle clinical backdrop, warm photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfYoFKy-NrmFtJ2LMo0M-mxugQGeJLTTLKaL3sOfsgHbO4lHsJmAvh6e6uspRr9j9oPzafHB4oUezC_lh7GySbGwVnUlGnNBMjFjeWFsBa_X2ghxAWPW2-fNg6NWqZO-v3_5ifd21Uv2w39LIWURZVXI3aviEL76rljVQEKEKA1OqkgfHB2uRCzBoLh0ZxpnRBi1RpGvMvObUnYBy0_Lu2xiB6G4d_vNZIPzdX4Q1_"/>
+<div class="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-tertiary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[10px] text-on-tertiary">verified_user</span>
+</div>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-title-md text-title-md text-on-surface">Priya S.</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-[10px]">Household Admin</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary flex items-center gap-1 mt-0.5">
+<span class="inline-block w-2 h-2 rounded-full bg-tertiary-container animate-pulse"></span>
+          Auto-checking cabinet 24/7
+        </p>
+</div>
+</div>
+<button aria-label="Caregiver settings" class="w-9 h-9 rounded-full bg-surface flex items-center justify-center text-secondary shadow-sm hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">manage_accounts</span>
+</button>
+</div>
+<!-- Safety Critical Queue Banner -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-error-container flex items-center justify-center text-error">
+<span class="material-symbols-outlined text-[18px]">emergency</span>
+</div>
+<div>
+<h2 class="font-title-lg text-title-lg text-on-surface">Actionable Safety Queue</h2>
+<p class="font-body-sm text-body-sm text-secondary">3 medications require your decision</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-error-container text-on-error-container font-label-md text-label-md">3 Active</span>
+</div>
+<!-- Actionable Alert Cards Stack -->
+<div class="space-y-3.5">
+<!-- Alert Card 1: Critical Expired -->
+<div class="relative overflow-hidden rounded-xl bg-error-container/40 p-4 shadow-sm transition-all">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-error text-[20px]" style="font-variation-settings: 'FILL' 1;">report</span>
+<span class="font-label-lg text-label-lg text-error uppercase tracking-wider">Expired Medicine</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-error text-on-error font-label-sm text-label-sm">High Risk</span>
+</div>
+<div class="mt-3">
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Augmentin 625 Duo</h3>
+<div class="inline-flex mt-1 px-2.5 py-1 rounded-lg bg-surface text-on-surface-variant font-label-sm text-label-sm">
+          Amoxicillin 500mg + Clavulanic Acid 125mg
+        </div>
+</div>
+<div class="mt-3.5 p-2.5 rounded-lg bg-surface/80 flex items-start gap-2 text-on-surface">
+<span class="material-symbols-outlined text-error text-[18px] shrink-0 mt-0.5">dangerous</span>
+<p class="font-body-sm text-body-sm text-on-error-container leading-relaxed">
+          Expired <strong class="font-bold">October 2024</strong>. Sub-potent antibiotics carry severe risk of toxicity or ineffective treatment. Do not retain.
+        </p>
+</div>
+<div class="mt-4 flex items-center gap-2">
+<button class="flex-1 h-11 px-4 rounded-full bg-error text-on-error font-title-sm text-title-sm flex items-center justify-center gap-1.5 shadow-sm active:scale-95 transition-transform" type="button">
+<span class="material-symbols-outlined text-[18px]">delete_forever</span>
+<span>Dispose Safely</span>
+</button>
+<button class="h-11 px-4 rounded-full bg-surface text-secondary font-title-sm text-title-sm flex items-center justify-center hover:bg-surface-container transition-colors shadow-sm" type="button">
+          Details
+        </button>
+</div>
+</div>
+<!-- Alert Card 2: Warning Expiring Soon -->
+<div class="relative overflow-hidden rounded-xl bg-secondary-container/50 p-4 shadow-sm transition-all">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-on-secondary-fixed-variant text-[20px]" style="font-variation-settings: 'FILL' 1;">warning</span>
+<span class="font-label-lg text-label-lg text-on-secondary-fixed-variant uppercase tracking-wider">Expiring in 12 Days</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm">Urgent</span>
+</div>
+<div class="mt-3">
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Calpol 250 Pediatric Syrup</h3>
+<div class="inline-flex mt-1 px-2.5 py-1 rounded-lg bg-surface text-on-surface-variant font-label-sm text-label-sm">
+          Paracetamol 250mg / 5ml Suspension
+        </div>
+</div>
+<div class="mt-3.5 p-2.5 rounded-lg bg-surface/80 flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">event_upcoming</span>
+<p class="font-body-sm text-body-sm text-on-secondary-container">
+          Assigned to <span class="font-bold text-on-surface">Aarav (Kid)</span>. Shelf life ends <strong class="font-bold">15 Nov 2024</strong>. Review remaining doses before disposal.
+        </p>
+</div>
+<div class="mt-4 flex items-center gap-2">
+<button class="flex-1 h-11 px-4 rounded-full bg-secondary-container text-on-secondary-container font-title-sm text-title-sm flex items-center justify-center gap-1.5 shadow-sm active:scale-95 transition-transform" type="button">
+<span class="material-symbols-outlined text-[18px]">check_box</span>
+<span>Mark Used / Replace</span>
+</button>
+<button class="w-11 h-11 rounded-full bg-surface text-secondary flex items-center justify-center hover:bg-surface-container shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px]">snooze</span>
+</button>
+</div>
+</div>
+<!-- Alert Card 3: Out of Stock / Depleted -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-low p-4 shadow-sm transition-all">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">remove_shopping_cart</span>
+<span class="font-label-lg text-label-lg text-secondary uppercase tracking-wider">Out of Stock / Finished</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-secondary font-label-sm text-label-sm">Depleted</span>
+</div>
+<div class="mt-3">
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Cetzine 10mg</h3>
+<div class="inline-flex mt-1 px-2.5 py-1 rounded-lg bg-surface text-on-surface-variant font-label-sm text-label-sm">
+          Cetirizine Hydrochloride 10mg
+        </div>
+</div>
+<p class="font-body-sm text-body-sm text-secondary mt-2">
+        Logged empty last Sunday. Frequently kept for seasonal dust allergy emergency backup.
+      </p>
+<div class="mt-4 flex items-center gap-2">
+<button class="flex-1 h-11 px-4 rounded-full bg-primary-container text-on-primary font-title-sm text-title-sm flex items-center justify-center gap-1.5 shadow-sm active:scale-95 transition-transform" type="button">
+<span class="material-symbols-outlined text-[18px]">restart_alt</span>
+<span>Restock or Archive</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Section 2: Household & Safety Controls -->
+<div class="pt-2 space-y-4">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-primary-container/15 flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</div>
+<div>
+<h2 class="font-title-lg text-title-lg text-on-surface">Household &amp; Presets</h2>
+<p class="font-body-sm text-body-sm text-secondary">Family tagging and dynamic sensitivity</p>
+</div>
+</div>
+<!-- Family Member Chips Card -->
+<div class="rounded-xl bg-surface-container-lowest p-4 shadow-sm space-y-3">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-title-md text-title-md text-on-surface">Family Profiles</span>
+<p class="font-body-sm text-body-sm text-secondary">Isolate pediatric and geriatric drug contraindications</p>
+</div>
+<span class="material-symbols-outlined text-secondary">family_restroom</span>
+</div>
+<div class="flex flex-wrap gap-2 pt-1" id="family-member-list">
+<div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span>General Cabinet</span>
+</div>
+<div class="inline-flex items-center gap-1.5 pl-3 pr-1.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md">
+<span class="material-symbols-outlined text-[14px]">child_care</span>
+<span>Aarav (Kid)</span>
+<button aria-label="Remove Aarav" class="w-5 h-5 rounded-full hover:bg-surface flex items-center justify-center text-secondary ml-1" type="button">
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</div>
+<div class="inline-flex items-center gap-1.5 pl-3 pr-1.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md">
+<span class="material-symbols-outlined text-[14px]">elderly</span>
+<span>Mom (Elderly)</span>
+<button aria-label="Remove Mom" class="w-5 h-5 rounded-full hover:bg-surface flex items-center justify-center text-secondary ml-1" type="button">
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</div>
+<button class="inline-flex items-center gap-1 px-3 py-1.5 rounded-full bg-surface-container text-primary font-label-md text-label-md hover:bg-surface-container-high transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add Member</span>
+</button>
+</div>
+</div>
+<!-- Automated Alerts Toggles -->
+<div class="rounded-xl bg-surface-container-lowest p-4 shadow-sm space-y-4">
+<div class="flex items-center justify-between pb-1">
+<div>
+<span class="font-title-md text-title-md text-on-surface">Automated Engine Rules</span>
+<p class="font-body-sm text-body-sm text-secondary">Real-time local safety threshold triggers</p>
+</div>
+<span class="material-symbols-outlined text-primary">notifications_active</span>
+</div>
+<!-- Toggle 1 -->
+<div class="flex items-center justify-between py-1">
+<div class="max-w-[75%]">
+<span class="font-title-sm text-title-sm text-on-surface block">30-Day Advance Warning</span>
+<span class="font-body-sm text-body-sm text-secondary">Early nudge to avoid rush-buying chronic prescriptions.</span>
+</div>
+<button aria-checked="true" class="w-12 h-7 rounded-full bg-primary-container p-0.5 flex items-center justify-end transition-colors cursor-pointer" role="switch" type="button">
+<span class="w-6 h-6 rounded-full bg-on-primary shadow-sm transform transition-transform"></span>
+</button>
+</div>
+<!-- Toggle 2 -->
+<div class="flex items-center justify-between py-1">
+<div class="max-w-[75%]">
+<span class="font-title-sm text-title-sm text-on-surface block">7-Day Critical Expiry Notice</span>
+<span class="font-body-sm text-body-sm text-secondary">High-priority push alert with safe disposal guidance.</span>
+</div>
+<button aria-checked="true" class="w-12 h-7 rounded-full bg-primary-container p-0.5 flex items-center justify-end transition-colors cursor-pointer" role="switch" type="button">
+<span class="w-6 h-6 rounded-full bg-on-primary shadow-sm transform transition-transform"></span>
+</button>
+</div>
+<!-- Toggle 3 -->
+<div class="flex items-center justify-between py-1">
+<div class="max-w-[75%]">
+<span class="font-title-sm text-title-sm text-on-surface block">Duplicate Active-Ingredient Warning</span>
+<span class="font-body-sm text-body-sm text-secondary">Detects accidental double dosing of identical chemical salts.</span>
+</div>
+<button aria-checked="true" class="w-12 h-7 rounded-full bg-primary-container p-0.5 flex items-center justify-end transition-colors cursor-pointer" role="switch" type="button">
+<span class="w-6 h-6 rounded-full bg-on-primary shadow-sm transform transition-transform"></span>
+</button>
+</div>
+</div>
+<!-- Data & Doctor Export Card -->
+<div class="rounded-xl bg-surface-container-lowest p-4 shadow-sm space-y-4">
+<div class="flex items-start gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[22px]">lock</span>
+</div>
+<div class="space-y-0.5">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold block">Local Encrypted Database</span>
+<p class="font-body-sm text-body-sm text-secondary">
+            Size: 4.2 MB • Zero-cloud retention. All drug interactions calculate offline autonomously.
+          </p>
+</div>
+</div>
+<div class="rounded-lg bg-surface-container-low p-3 flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary-container shrink-0">
+<span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
+</div>
+<div class="flex-1 min-w-0">
+<span class="font-label-md text-label-md text-on-surface block truncate">Cabinet_Summary_Oct2024.pdf</span>
+<span class="font-body-sm text-body-sm text-secondary">Includes active salts &amp; dosages</span>
+</div>
+<button aria-label="Download Summary" class="h-9 px-3 rounded-full bg-surface-container-lowest text-primary font-label-md text-label-md flex items-center gap-1 shadow-sm hover:bg-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span>Export</span>
+</button>
+</div>
+<button class="w-full h-12 rounded-xl bg-primary-container text-on-primary font-title-sm text-title-sm flex items-center justify-center gap-2 shadow-sm active:scale-98 transition-transform" type="button">
+<span class="material-symbols-outlined text-[20px]">share</span>
+<span>Share Summary with Doctor / Nanny</span>
+</button>
+</div>
+<!-- Danger Zone Card -->
+<div class="rounded-xl bg-error-container/20 p-4 shadow-sm space-y-2.5">
+<div class="flex items-center gap-2 text-error">
+<span class="material-symbols-outlined text-[20px]">warning</span>
+<span class="font-title-sm text-title-sm font-bold uppercase tracking-wider">Danger Zone</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-error-container">
+        Wiping the local registry permanently purges 24 medications, custom dosage tags, and interaction histories.
+      </p>
+<button class="w-full h-11 rounded-xl bg-surface text-error font-title-sm text-title-sm flex items-center justify-center gap-2 hover:bg-error-container/50 transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">delete_sweep</span>
+<span>Delete Household &amp; Clear All Data</span>
+</button>
+</div>
+</div>
+<!-- Subtle Regulatory Disclaimer -->
+<div class="px-2 text-center pb-2">
+<p class="font-label-sm text-label-sm text-secondary/80 leading-relaxed">
+      MEDSTOCK AI provides reference alerts and salt duplication warnings. Always verify critical decisions with an authorized medical professional.
+    </p>
+</div>
+</div></main><div class="fixed bottom-20 left-0 right-0 z-50 flex justify-center pointer-events-none px-margin"><a class="pointer-events-auto flex items-center justify-center gap-space-xs h-14 px-6 rounded-full bg-primary-container text-on-primary font-title-sm text-title-sm shadow-[0_8px_24px_rgba(15,118,110,0.28)] hover:bg-primary transition-all active:scale-95" data-path="scan-medicine" href="#"><span class="material-symbols-outlined text-2xl">photo_camera</span><span>Scan Medicine</span></a></div><nav class="fixed bottom-0 w-full z-40 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(11,28,48,0.04)]" data-active-classes="text-primary font-bold"><div class="flex items-center justify-around h-20 px-space-md"><a class="group flex flex-col items-center justify-center w-24 h-16 rounded-xl text-on-surface-variant transition-colors hover:text-primary" data-path="cabinet" href="#"><div class="flex items-center justify-center w-12 h-8 rounded-full group-[.active]:bg-primary-container/15 transition-all"><span class="material-symbols-outlined text-[24px]">inventory_2</span></div><span class="font-label-sm text-label-sm mt-0.5">Cabinet</span></a><div class="w-24"></div><a class="group flex flex-col items-center justify-center w-24 h-16 rounded-xl text-on-surface-variant transition-colors hover:text-primary" data-path="alerts-settings" href="#"><div class="relative flex items-center justify-center w-12 h-8 rounded-full group-[.active]:bg-primary-container/15 transition-all"><span class="material-symbols-outlined text-[24px]">notifications</span><span class="absolute top-1.5 right-3 w-2 h-2 rounded-full bg-error ring-2 ring-surface-container-lowest"></span></div><span class="font-label-sm text-label-sm mt-0.5">Alerts &amp; Settings</span></a></div></nav></body></html>
